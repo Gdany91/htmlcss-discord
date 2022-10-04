@@ -86,7 +86,6 @@ body{
 
 /* prime 3 sezioni */
 
-/* caratteristica 1 */
 
 .row-odd {
     min-height: 1200px;
@@ -94,7 +93,9 @@ body{
     /* DEBUG */
     background-color: rgb(176, 176, 177);
     display: flex;
-    justify-content: center
+    justify-content: center;
+    flex-direction: row-reverse;
+    
     
 }
 
@@ -111,7 +112,6 @@ body{
 }
 
 .img{
- 
     margin: 50px;
 }
 
@@ -131,8 +131,15 @@ body{
 }
 
 .titolo{
-    font-size: 200px;
+    font-size: 141px;
     color: black;
+    margin-bottom: 50px;
+}
+
+.sottotitolo{
+    font-size: 50px;
+    color: black;
+    
 }
 
 /* ultima sezione */
@@ -143,7 +150,7 @@ body{
     /* DEBUG */
     background-color: rgb(176, 176, 177);
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse ;
     justify-content: center;
     
     }
