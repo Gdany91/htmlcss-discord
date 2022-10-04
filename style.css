@@ -90,22 +90,21 @@ body{
 .row-odd {
     min-height: 1200px;
     width: 3350px;
-    /* DEBUG */
     background-color: rgb(176, 176, 177);
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-    
     
 }
 
+.conteiner-odd{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+
+}
 
 
 .row-even {
     min-height: 1200px;
     width: 3350px;
-    /* DEBUG */
-    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center
     
@@ -119,7 +118,11 @@ body{
     width: 2300px;
 }
 
-/* ultima sezione */
+.conteiner{
+    margin: 70px;
+    display: flex;
+    justify-content: center
+}
 
 
 
@@ -140,6 +143,7 @@ body{
     font-size: 50px;
     color: black;
     
+    
 }
 
 /* ultima sezione */
@@ -150,7 +154,7 @@ body{
     /* DEBUG */
     background-color: rgb(176, 176, 177);
     display: flex;
-    flex-direction: column-reverse ;
+    flex-direction: column ;
     justify-content: center;
     
     }
