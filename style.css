@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; ;
+    color: white;
+}
+
+
+/* header */
+header{
+    background-image: url(img/jumbo.png);
+    min-height: 1200PX;
+    width: 3350px;
+    display: flex;
+    justify-content: space-around;
+    /* DEBUG */
+    background-color: rgb(100, 100, 197);
+}
+
+body{
+    margin: 0 800px;
+}
+
+    /* logo */
+    .logo{
+        margin-top: 30px;
+        height: 5%;
+        width: 5%;
+        border-radius: 8%;
+     }
+
+     .img-logo{
+        width: 200%;
+     }
+
+ 
+    /* menu */
+    .menu{
+        margin-top: 40px;
+        font-size:35px ;
+        width: 35%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+
+    /* log-in */
+    .log-in{
+        margin-top: 40px;
+        height: 65px;
+        width: 4%;
+        font-size:35px ;
+        color: black;
+        background-color: rgb(244, 244, 250);
+        text-align: center;
+        border-radius: 30%;
+        padding: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* corpo della pagina */
+
+
+
+
+
+
+/* caratteristiche  */
+
+/* prime 3 sezioni */
+
+/* caratteristica 1 */
+
+.row-odd {
+    min-height: 1200px;
+    width: 3350px;
+    /* DEBUG */
+    background-color: rgb(176, 176, 177);
+    display: flex;
+    justify-content: center
+    
+}
+
+
+
+.row-even {
+    min-height: 1200px;
+    width: 3350px;
+    /* DEBUG */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center
+    
+}
+
+.img{
+ 
+    margin: 50px;
+}
+
+.img-1{
+    width: 2300px;
+}
+
+/* ultima sezione */
+
+
+
+.testo{
+    min-height: 350px;
+    min-width: 300PX;
+    margin-top: 180px;
+    
+}
+
+.titolo{
+    font-size: 200px;
+    color: black;
+}
+
+/* ultima sezione */
+
+.row-special {
+    min-height: 1200px;
+    width: 3350px;
+    /* DEBUG */
+    background-color: rgb(176, 176, 177);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    }
+
+    .img-2{
+        /* DEBUG */
+        background-color: rgb(38, 156, 172);
+        min-height: 200px;
+        min-width: 1200pxPX;
+        margin: 50px;
+    }
+    
+    
+    .testo-2{
+        /* DEBUG */
+        background-color: rgb(38, 156, 172);
+        min-height: 200px;
+        min-width: 1200PX;
+        margin: 50px;
+    }
+
+    h4{
+        /* DEBUG */
+        min-height: 20px;
+        min-width: 60PX;
+        background-color: white;
+        margin-bottom: 50px;
+    }
+
+    button{
+        /* DEBUG */
+        min-height: 20px;
+        min-width: 60PX;
+        background-color: rgb(122, 171, 211);
+       
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    min-height: 1400PX;
+    width: 3350px;
+    display: flex;
+    justify-content: space-around;
+    
+    /* DEBUG */
+    background-color: rgb(57, 57, 73);
+}
+
+/* contatti social e nav */
+
+.contatti{
+    margin-top: 50px;
+    /* DEBUG */
+    height: 350px;
+    min-width: 350PX;
+    background-color: rgb(122, 171, 211);
+    
+}
+.list{
+    list-style-type: none;
+    margin-top: 50px;
+    /* DEBUG */
+    height: 350px;
+    min-width: 350PX;
+    background-color: rgb(122, 171, 211);
+
+}
